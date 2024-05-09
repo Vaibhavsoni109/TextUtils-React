@@ -47,7 +47,7 @@ function App() {
         <Route path="/" element={ <Textform heading="Enter your text for analyze" showAlert={showAlert} alert={alert} />}/> 
           <Route path="/about" element={<About/>} />
       </Routes> */}
-    <Textform heading="Enter your text for analyze" mode={mode} showAlert={showAlert} alert={alert} />
+    <Textform heading="TextUtils- Word Counter, Character Counter, Remove Extra Spaces" mode={mode} showAlert={showAlert} alert={alert} />
 
 
 
